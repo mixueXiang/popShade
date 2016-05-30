@@ -1,0 +1,69 @@
+<!doctype html>  
+<html>  
+<head lang="zh-CN">  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+<title>弹窗遮罩</title> 
+<link rel="stylesheet" href="./popShade.css">
+<script type="text/javascript" src="./popShade.js"></script>
+<style>
+	html {
+		font-size:62.5%;
+		text-size-adjust:none;
+		height:100%;
+	}
+	body {
+		margin:0; 
+		padding:0; 
+		height:100%;
+	}
+	header {
+		width:100%;
+		padding:2.6rem 0;
+		background-color:#3d3b4f;
+		color:white;
+		text-align:center;
+		font-size:3.5rem;
+	}
+
+	#openBtn {
+		width:15rem;
+		height:2.5rem;
+		text-align:center;
+		padding:2rem;
+		font-size:2.2rem;
+		color:white;
+		border-radius:5px;
+		position:absolute;
+		left:50%;
+		top:50%;
+		transform:translate(-50%,-50%); 
+		cursor:pointer;
+		background:#9ed048;
+	}
+    @media screen and (max-width:375px) {
+    	html {font-size:10px;}
+    }
+    @media screen and (min-width:500px) and (max-width:996px) {
+		html {font-size:15px;}
+	}
+	@media screen and (min-width:996px) {
+		html {font-size:10px;}
+	}
+</style> 
+</head> 
+<body> 
+    <header>弹窗遮罩效果展示</header>
+    <div id="openBtn">OPENOVERLAY</div>
+
+    <!-- 弹窗遮罩html结构 -->
+		<!-- <div class="shade">
+			<div class="pop">
+				<p class="content"></p>
+				<span class="closeBtn"></span>
+				<span class="sendBtn"></span>
+			</div>
+		</div>
+	<!-- 弹窗遮罩html结构end -->
+</body>  
+</html>
