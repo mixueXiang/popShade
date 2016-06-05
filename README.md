@@ -1,7 +1,8 @@
 # popShade
 ### 弹窗遮罩类
 
-### 使用方法  1、引入popShade.js、popShade.css文件(test.html用于测试)
+### 使用方法  
+           1、引入popShade.js、popShade.css文件(test.html用于测试)
 	      2、使用时只需配置defaultConfig对象，
 	           
     	            var defaultConfig = {
